@@ -1,0 +1,141 @@
+body {
+    font-family: Didot;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+.container {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin: 5px 1; 
+    font-size: 16px; 
+}
+
+.header {
+    background: linear-gradient(to right,#ff69b4, #8a2be2, #1e90ff);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header img {
+    width: 70px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 1px;
+}
+
+.profile img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-right: 2px;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.user-details .name {
+    font-size: 16px;
+    margin: 0; 
+    font-weight: bold; 
+}
+
+.user-details .logout {
+    margin-top: 2px; 
+}
+
+.form {
+    padding-top: 3px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+.form-container p {
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px 0;
+    font-weight: bold;
+}
+.form input[type="text"]{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form input[type="checkbox"] {
+    margin-right: 1px;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}
+
+.gua-btn {
+    width: 91%; 
+    padding: 10px; 
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block; 
+    margin-right: auto; 
+    text-align: center; 
+}
+    
+.gua-btn:hover {
+    background-color: #0056b3;
+    }
+
+

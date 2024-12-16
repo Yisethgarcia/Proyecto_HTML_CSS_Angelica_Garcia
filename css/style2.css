@@ -1,0 +1,102 @@
+body {
+    font-family: Didot;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    }
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    }
+
+.header {
+    background: linear-gradient(to right, #ff69b4, #8a2be2, #1e90ff);
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    }
+
+.header img {
+    width: 70px;
+    }
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    }
+
+.header p {
+    margin: 0;
+    font-size: 12px;
+    }
+
+.form-group {
+    margin: 15px 0;
+    }
+
+.form-group input, .form-group select {
+    width: 92%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+
+.form-group input:focus, .form-group select:focus {
+    border-color: #007bff;
+    outline: none;
+    }
+
+
+.form-group1 {
+    margin: 15px 0;
+    }
+
+.form-group1 input, .form-group1 select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+
+.form-group1 input:focus, .form-group1 select:focus {
+    border-color: #007bff;
+    outline: none;
+    }
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    }
+
+.btn:hover {
+    background-color: #0056b3;
+    }
+
+.gua-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 110px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    }
+    
+.gua-btn:hover {
+    background-color: #0056b3;
+    }
+    

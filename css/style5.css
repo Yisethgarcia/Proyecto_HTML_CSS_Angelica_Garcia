@@ -1,0 +1,141 @@
+body {
+    font-family: Didot;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+.container {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin: 5px 1; 
+    font-size: 16px; 
+}
+
+.subtitle {
+    text-align: left;
+    font-size: 14px;
+    color: gray;
+    margin: 5px 0;
+}
+
+.header {
+    background: linear-gradient(to right,#ff69b4, #8a2be2, #1e90ff);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header img {
+    width: 70px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 1px;
+}
+
+.profile img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-right: 2px;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.user-details .name {
+    font-size: 16px;
+    margin: 0; 
+    font-weight: bold; 
+}
+
+.user-details .logout {
+    margin-top: 2px; 
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+.card p {
+    color: gray;
+    margin: 5px 0;
+}
+
+.plane-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.flight-info {
+    text-align: left;
+    flex: 1;
+    margin-left: 1px;
+}
+
+.price-info {
+    text-align: right;
+}
+
+.price-info p:last-child {
+    font-weight: bold;
+    color: #868484;
+}
+
+.gua-btn {
+    width: 93%; 
+    padding: 10px; 
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block; 
+    margin-right: auto; 
+    text-align: center; 
+}
+
+.gua-btn:hover {
+    background-color: #0056b3;
+}
